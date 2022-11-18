@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(253, 244, 244);
+    font-size: 18px;
+    line-height: 1.15;
+    margin: 0;
+    padding: 0;
+}
+
+.overview{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(253, 244, 244);
+    height: 400px;
+}
+
+#mywork {
+    display: grid;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: pink;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+nav li{
+    margin-right: 20px;
+}
+
